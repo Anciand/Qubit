@@ -1,0 +1,10 @@
+.brands_list {
+  @extend %list;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 14px 0;
+  margin-bottom: 12px;
+}

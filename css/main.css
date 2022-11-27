@@ -243,7 +243,7 @@ summary {
 
 /* delete image margin */
 /* styles for lists */
-.pages {
+.brands_list, .pages {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -487,6 +487,53 @@ summary {
 .hero-form__btn .hero-form__btn:hover,
 .hero-form__btn .hero-form__btn:focus {
   background-color: #4515ab;
+}
+
+.brands {
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+.brands__title {
+  margin: 0 0 15px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+  color: #1c1c1c;
+}
+.brands__link {
+  position: relative;
+  margin: 0;
+  padding: 2px 3px 5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1c1c1c;
+  text-decoration: none;
+}
+.brands__link::after {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  border-bottom: 2px solid #6f2cff;
+  display: block;
+  width: 100%;
+}
+
+.brands_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 60px;
+  padding: 14px 0;
+  margin-bottom: 12px;
 }
 
 body {
