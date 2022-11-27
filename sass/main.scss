@@ -2,3 +2,11 @@
 @import './utils/vars';
 @import './utils/placeholders';
 @import './components/header/header';
+@import './components/header/reg-buttons';
+@import './components/header/log-btn';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  color: #757575;
+}

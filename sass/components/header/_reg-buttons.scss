@@ -1,0 +1,20 @@
+.registr-btn {
+  margin: 0 3px 0 0;
+  padding: 11px 34px 15px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  background-color: #6f2cff;
+  border-radius: 20px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  color: #ffffff;
+
+  transition: background-color 250ms linear;
+}
+.registr-btn:hover,
+.registr-btn:focus {
+  background-color: #521fbe;
+}
