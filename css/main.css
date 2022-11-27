@@ -264,6 +264,11 @@ summary {
   overflow: hidden;
 }
 
+.section {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
 .container {
   width: 1440px;
   margin: 0 auto;
@@ -306,6 +311,13 @@ summary {
   line-height: 1;
   color: #1c1c1c;
   text-decoration: none;
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
+}
+
+.pages__link:hover,
+.pages__link:focus {
+  color: #6f2cff;
 }
 
 .registr-btn {
@@ -349,6 +361,63 @@ summary {
 .login-btn:focus {
   color: #fff;
   background-color: #521fbe;
+}
+
+.hero {
+  padding-top: 135px;
+  padding-bottom: 195px;
+}
+.hero__background {
+  background-image: url("../../../images/background/main-back.jpg"), url("../images/background/main-back.jpg");
+  max-width: 1440px;
+  height: 775px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+.hero .container {
+  margin-left: 85px;
+}
+
+.hero__prescribe {
+  margin: 0 0 20px 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #000000;
+}
+
+.hero__title {
+  margin: 0;
+  padding: 0;
+  max-width: 470px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 1.13;
+  color: #000000;
+}
+
+.hero__sub-title {
+  display: block;
+  margin-bottom: 35px;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 1;
+  color: #6f2dff;
+}
+
+.hero__postscribe {
+  margin: 0;
+  padding: 0;
+  max-width: 440px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #000000;
 }
 
 body {

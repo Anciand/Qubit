@@ -24,4 +24,10 @@
   line-height: 1;
   color: #1c1c1c;
   text-decoration: none;
+
+  transition: color 250ms linear;
+}
+.pages__link:hover,
+.pages__link:focus {
+  color: #6f2cff;
 }

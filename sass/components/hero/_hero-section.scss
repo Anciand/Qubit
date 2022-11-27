@@ -1,0 +1,18 @@
+.hero {
+  padding-top: 135px;
+  padding-bottom: 195px;
+
+  &__background {
+    background-image: url('../../../images/background/main-back.jpg'),
+      url('../images/background/main-back.jpg');
+    max-width: 1440px;
+    height: 775px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+  }
+  .container {
+    margin-left: 85px;
+  }
+}
